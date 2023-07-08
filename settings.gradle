@@ -1,0 +1,3 @@
+rootProject.name = 'grails-liquid-integration'
+include 'demo-app'
+include 'grails-liquid-plugin'
