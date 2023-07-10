@@ -31,6 +31,7 @@ configurations {
 }
 
 dependencies {
+    implementation 'nl.big-o:liqp:0.8.3.3'
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     compileOnly "io.micronaut:micronaut-inject-groovy"
     console "org.grails:grails-console"
