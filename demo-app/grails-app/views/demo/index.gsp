@@ -18,14 +18,22 @@
     <span class="output"></span>
 </div>
 
-<!-- Example 3: Render from String (TagLib) -->
-<h1>Example 3: Render from String (TagLib)</h1>
+<!-- Example 3.1: Render from String (TagLib) -->
+<h1>Example 3.1: Render from String (TagLib) with Map variables</h1>
 <liquid:renderString input="Hello, {{ name }}!" variables="[name: 'World']"/>
 
-<!-- Example 4: Render from File (TagLib) -->
-<h1>Example 4: Render from File (TagLib)</h1>
+<!-- Example 3.2: Render from String (TagLib) -->
+<h1>Example 3.2: Render from String (TagLib) with JSON map string</h1>
+<liquid:renderString input="Hello, {{ name }}!" variables='{"name" : "World"}'/>
+
+<!-- Example 4.1: Render from File (TagLib) -->
+<h1>Example 4.1: Render from File (TagLib) with Map variables</h1>
 <liquid:renderFile uri="/example.liquid" variables="[name: 'World']"/>
 
+
+<!-- Example 4.2: Render from File (TagLib) -->
+<h1>Example 4.2: Render from File (TagLib) with JSON map string</h1>
+<liquid:renderFile uri="/example.liquid" variables='{"name" : "World"}'/>
 <script>
     $.ajax({
         url: '${createLink(action: "renderString")}',
