@@ -44,7 +44,8 @@ The Liquid taglib provides custom tag library support for rendering Liquid templ
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on GitHub.
 
 # License
-This plugin is released under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for more information.
+This plugin is released under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-
-[Liqp (Java port of Liquid)](https://github.com/bkiers/Liqp)
+# Additional Links
+- [Liquid markup language](https://github.com/Shopify/liquid)
+- [Liqp (Java port of Liquid)](https://github.com/bkiers/Liqp)
