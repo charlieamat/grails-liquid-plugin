@@ -10,7 +10,7 @@ buildscript {
 }
 
 version "1.0.0"
-group "grails.liquid.plugin"
+group "io.github.charlieamat"
 
 apply plugin:"eclipse"
 apply plugin:"idea"
