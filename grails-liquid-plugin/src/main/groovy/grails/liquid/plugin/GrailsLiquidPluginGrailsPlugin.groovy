@@ -10,35 +10,18 @@ class GrailsLiquidPluginGrailsPlugin extends Plugin {
     def pluginExcludes = [
         "grails-app/views/error.gsp"
     ]
-
-    // TODO Fill in these fields
-    def title = "Grails Liquid Plugin" // Headline display name of the plugin
-    def author = "Your name"
-    def authorEmail = ""
+    def title = "Grails Liquid Plugin"
+    def author = "Charles Amat"
+    def authorEmail = "charlesamat@gmail.com"
     def description = '''\
-Brief summary/description of the plugin.
+A Grails plugin for the Liquid markup language and template engine.
 '''
     def profiles = ['web']
-
-    // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/grails-liquid-plugin"
-
-    // Extra (optional) plugin metadata
-
-    // License: one of 'APACHE', 'GPL2', 'GPL3'
-//    def license = "APACHE"
-
-    // Details of company behind the plugin (if there is one)
-//    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
-
-    // Any additional developers beyond the author specified above.
-//    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
-
-    // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
-
-    // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
+    def documentation = "TBD"
+    def license = "MIT"
+    def developers = [ [ name: "Carlos Tobon", email: "carlos.maro.tobon@gmail.com" ] ]
+    def issueManagement = [ system: "GitHub Issues", url: "https://github.com/charlieamat/grails-liquid-plugin/issues" ]
+    def scm = [ url: "https://github.com/charlieamat/grails-liquid-plugin" ]
 
     Closure doWithSpring() { {->
             // TODO Implement runtime spring config (optional)
